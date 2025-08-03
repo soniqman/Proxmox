@@ -4,4 +4,4 @@ wget -qO - https://raw.githubusercontent.com/soniqman/Proxmox/main/proxmox_subsc
 
 #run file
 
-curl https://raw.githubusercontent.com/soniqman/Proxmox/main/proxmox_subscribe.sh | bash -x
+curl -s https://raw.githubusercontent.com/soniqman/Proxmox/main/proxmox_subscribe.sh | sed 's/proxmox.js/proxmoxlib.js/g' | bash -x
