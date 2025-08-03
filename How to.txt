@@ -1,0 +1,3 @@
+# how to
+
+wget -qO - https://raw.githubusercontent.com/soniqman/Proxmox/main/patch_proxmox.sh |  sh
