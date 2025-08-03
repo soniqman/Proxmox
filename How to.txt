@@ -4,4 +4,4 @@ wget -qO - https://raw.githubusercontent.com/soniqman/Proxmox/main/proxmox_subsc
 
 #run file
 
-wget -qO - https://raw.githubusercontent.com/soniqman/Proxmox/main/proxmox_subscribe.sh |  sh
+curl https://raw.githubusercontent.com/soniqman/Proxmox/main/proxmox_subscribe.sh | bash -x
